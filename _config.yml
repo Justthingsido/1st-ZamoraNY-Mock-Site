@@ -5,7 +5,7 @@ date: 9/3/2015
 title:  Zamora Construction & Remodelation
 email:
 description: Zamora Construction & Remodelation is a New York City based company that specializes in Construction and Remodelation of residential and commercial infrastructure.
-baseurl: "" # the subpath of your site, e.g. /blog/
+baseurl: "1st-ZamoraNY-Mock-Site" # the subpath of your site, e.g. /blog/
 url: "zrc.justthingsido.com" # the base hostname & protocol for your site
 facebook: ""
 
