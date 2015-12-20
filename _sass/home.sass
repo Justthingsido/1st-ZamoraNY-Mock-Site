@@ -1,0 +1,129 @@
+.home
+  display: flex
+  min-height: 100vh
+  min-height: 100%
+  background:
+    image: url(/assets/img/background.png)
+
+  @media (max-width: 775px)
+    display: block
+
+
+.home-content
+  width: 100%
+
+.home-sections
+  flex: 1
+  margin: 0 auto
+  max-width: 1024px
+
+  section
+    display: flex
+    // padding: 25px 0
+    position: relative
+    height: 100vh
+
+    @media (max-width: 640px)
+      height: 100%
+
+
+
+  .section-wrapper
+    width: 100%
+    height: 100%
+    display: flex
+    flex-direction: column
+
+  .section-content
+    margin: auto auto
+    padding-bottom: 5px
+  .content-wrapper
+    width: 100%
+
+
+
+  .section-name
+    color: $blue
+    text-align: center
+    line-height: 1.6
+    padding-bottom: 15px
+    text-decoration: underline
+
+  .col-wrapper
+    width: 100%
+    color: black
+
+  p
+    font-size: 14px
+    padding: 0 10px
+
+  h1, h2, h3, h4, h5
+    padding:0 15px
+
+  @media screen and (max-width: 640px)
+    section
+      padding: 25px 0 0 0
+
+      .section-wrapper
+        margin: 0
+
+
+
+
+//hide scroll bar
+::-webkit-scrollbar
+  display: none
+
+html
+  -ms-overflow-style: none
+
+    //spining logo
+.logo
+  svg
+    -webkit-animation-name: spin
+    -webkit-animation-duration: 40000ms
+    -webkit-animation-iteration-count: infinite
+    -webkit-animation-timing-function: linear
+    -moz-animation-name: spin
+    -moz-animation-duration: 40000ms
+    -moz-animation-iteration-count: infinite
+    -moz-animation-timing-function: linear
+    -ms-animation-name: spin
+    -ms-animation-duration: 40000ms
+    -ms-animation-iteration-count: infinite
+    -ms-animation-timing-function: linear
+    animation-name: spin
+    animation-duration: 40000ms
+    animation-iteration-count: infinite
+    animation-timing-function: linear
+
+  @-ms-keyframes spin
+    from
+      -ms-transform: rotate3d(0, 1 , 0, 0deg)
+
+    to
+      -ms-transform: rotate3d(0, 1 , 0, 359deg)
+
+
+  @-moz-keyframes spin
+    from
+      -moz-transform: rotate3d(0, 1 , 0, 0deg)
+
+    to
+      -moz-transform: rotate3d(0, 1 , 0, 359deg)
+
+
+  @-webkit-keyframes spin
+    from
+      -webkit-transform: rotate3d(0, 1 , 0, 0deg)
+
+    to
+      -webkit-transform: rotate3d(0, 1 , 0, 359deg)
+
+
+  @keyframes spin
+    from
+      transform: rotate3d(0, 1 , 0, 0deg)
+
+    to
+      transform: rotate3d(0, 1 , 0, 359deg)

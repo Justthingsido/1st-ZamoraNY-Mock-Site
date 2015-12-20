@@ -1,0 +1,24 @@
+
+<section id="services" class="services inner">
+  <div class="section-wrapper">
+    <div class="section-content">
+      <h3 class="section-name">Our services</h3>{% for about in site.data.services.abouts %}
+      <div class="description">
+         
+        {% for nestedabout in about.description %}
+        <p>{{ nestedabout.nested }}</p>{% endfor %}
+      </div>{% endfor %}
+      <div class="col-wrapper">{% for service in site.data.services.services %}
+        <div class="col-1 hover">
+          <h4>{{service.name }}</h4>{% if service.description %}
+          <ul>{% for nestedservice in service.description %}
+            <li><span style ="color:blue; font-size: 10px; font-weight: bold; padding-right: 5px"> > </span>{{ nestedservice.nested }}</li>{% endfor %}            
+            {% endif %}
+            {% if service.link %}
+            <li class="seemore"><a href="{{ service.link }}">See More...</a></li>{% endif %}
+          </ul>
+        </div>{% endfor %}
+      </div>
+    </div>
+  </div>
+</section>

@@ -1,0 +1,159 @@
+.home
+  header
+    width: 200px
+    .header-position
+      position: relative
+      left: 0
+      // top: 0
+      bottom: 30px
+      width: 160px
+      display: flex
+      z-index: 100
+      flex-direction: column
+
+      height: 100vh
+      // transform: translateY(1000%)
+      transition: all .5s ease-in-out
+
+    .fixed
+    	position: fixed
+    	top: 0
+
+
+
+    .logo > svg
+      +size(70px)
+      width: 100%
+      padding: 0
+      margin: 0
+      cursor: pointer
+      margin-top: 60px
+      fill: white
+
+      &:hover
+        transition: all 2s ease-out
+        transform: rotate3d(0, 1 , 0, -360deg)
+
+    //Desktop navigation
+    .site-nav
+      padding-top: 20vh
+      ul
+        list-style: none
+        margin: 20px 0
+        padding: 0 20px  0
+        li
+          margin-bottom: 10px
+
+          &:last-child
+            margin-bottom: 0
+
+          a
+            display: flex
+            justify-content: flex-end
+            color: white
+            text-align: right
+
+            &:hover
+              color: $red
+              background: rgba(black, 0.3)
+              text-decoration: overline
+
+
+    .current
+      text-decoration: underline
+      text-transform: uppercase
+      color: $blue !important
+      font-size: 100%
+
+    .mobile-nav-toggle
+      display: none
+      +size(35px)
+      margin-right: 20px
+      align-items: center
+      cursor: pointer
+      z-index: 999
+
+
+      &:hover
+        svg
+          transition: all 1.5s cubic-bezier(.34,-1.94,.29,.33)
+          +size(100%)
+          transform: rotate(180deg)
+
+      svg
+        +size(100%)
+
+  //mobile-nav
+
+  .mobile-nav
+    display: none
+    position: fixed
+    top: 0
+    background: white
+    width: 100%
+    padding: 60px 0 0
+    bottom: auto
+    z-index: 1
+
+    ul
+      list-style: none
+      margin: 0
+      padding: 0
+
+    li
+      text-align: center
+      margin-bottom: 10px
+      border-bottom: 1px solid rgba($blue, 0.5)
+
+      &:last-child
+        margin-bottom: 0
+        border-bottom: 0
+
+
+  a
+    font-size: 120%
+    padding-bottom: 2px
+    display: flex
+    justify-content: center
+    width: 100%
+
+
+
+
+@media (max-width: 775px)
+  .home
+    header
+
+      width: 100%
+      transition: all .5s ease-in-out
+
+      .header-position
+        width: auto
+        background: white
+        width: 100%
+        height: 60px
+        bottom: 0
+        // top: 0
+        left: auto
+        flex-direction: row
+        align-items: center
+        justify-content: space-between
+        transition: all .5s ease-in-out
+
+      .fixed
+        background: transparent !important
+
+      .site-nav,
+      .email-link
+        display: none
+
+      .logo > svg
+        +size(40px)
+        margin-left: 15px
+        margin-top: 0
+        fill: black
+        z-index: 999
+
+      .mobile-nav-toggle
+        display: block
+        z-index: 10

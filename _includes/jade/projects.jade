@@ -1,0 +1,25 @@
+section.projects#projects.inner
+  .section-wrapper
+    .section-content
+      h3.section-name Projects
+      .col-wrapper
+        .col-1.proj-list#tabs
+          ul
+            | {% for project in site.data.projects.projects %}
+            li(class="{{ project.current }}")
+              a(href="#{{ project.link }}") {{ project.name }}
+            | {% endfor %}  
+          | {% for project in site.data.projects.projects %}
+          .slideshow.active(class="{{ project.path }}" id="{{project.link}}")
+            | {% for nestedproject in project.image %}
+            figure(class="{{ nestedproject.active }}")
+              img(src='{{ nestedproject.nested}}' )
+              //- img(src='{{ site.baseurl }}/assets/img/{{ project.path}}/{{ nestedproject.nested}}' )
+            | {% endfor %}
+          | {% endfor %}  
+
+
+          //- clickable arrrows
+          span.prev &laquo;
+          span.next &raquo;
+        

@@ -1,0 +1,115 @@
+
+section.landing
+  height: 100vh
+  height: 100%
+
+
+  .landing-wrapper,
+  .landing-content
+    width: 100%
+    height: 100%
+
+
+  .background
+    background:
+      image: url(/assets/img/nyc.jpg)
+      size: cover
+      repeat: no-repeat
+    width: 100%
+    height: 100%
+    position: fixed
+    z-index: -100
+
+  .landing-nav
+    display: flex
+    position: relative
+    justify-content: center
+    flex-wrap: wrap
+    width: 100%
+    text-transform: uppercase
+    border-radius: 25px
+    padding-top: 5px
+
+
+
+    a
+      display: flex
+      background: rgba(black, 0.3)
+      width: 125px
+      color: white
+      height: 25px
+      padding: 5px 10px
+      border-radius: 2px
+      margin: 1px 1px
+      font-size: 100%
+      justify-content: center
+      align-items: center
+      text-align: center
+      z-index: 0
+      &:hover
+        background: rgba(white, 0.3)
+        color: black
+
+  .current
+    text-decoration: underline
+    text-transform: uppercase
+    color: $blue !important
+    font-size: 100%
+
+  .logo
+    position: fixed
+    top: 30vh
+    margin: 0 auto
+    width: 100%
+    z-index: -1
+    svg
+      +size(125px)
+      width: 100%
+      fill: white
+
+
+  .hero
+    top: 60vh
+    top: 60%
+    position: fixed
+    width: 100%
+    text-align: center
+    z-index: -1
+    color: white
+    text-transform: uppercase
+
+  @media (max-width: 900px)
+    .landing-nav
+      justify-content: center
+      a
+        font-size: 90%
+        width: 30%
+  @media (max-width: 660px)
+    .landing-nav
+      a
+        font-size: 90%
+        width: 25%
+  @media (max-width: 600px)
+    .landing-nav
+      a
+        font-size: 90%
+        width: 40%
+
+
+@media (max-width: 640px)
+  section.landing
+    .logo > svg
+      +size(100px)
+      margin: 0 auto
+      width: 100%
+
+    .hero
+      font-size: 125%
+      top: 70vh
+      top: 70%
+
+
+
+//animation
+.animated
+  animation-duration: 1.5s !important

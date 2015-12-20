@@ -1,0 +1,19 @@
+
+<section id="projects" class="projects inner">
+  <div class="section-wrapper">
+    <div class="section-content">
+      <h3 class="section-name">Projects</h3>
+      <div class="col-wrapper">
+        <div id="tabs" class="col-1 proj-list">
+          <ul>{% for project in site.data.projects.projects %}
+            <li class="{{ project.current }}"><a href="#{{ project.link }}">{{ project.name }}</a></li>{% endfor %}  
+          </ul>{% for project in site.data.projects.projects %}
+          <div id="{{project.link}}" class="slideshow active {{ project.path }}">{% for nestedproject in project.image %}
+            <figure class="{{ nestedproject.active }}"><img src="{{ nestedproject.nested}}"/>
+            </figure>{% endfor %}
+          </div>{% endfor %}  <span class="prev">&laquo;</span><span class="next">&raquo;</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

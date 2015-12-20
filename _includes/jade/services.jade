@@ -1,0 +1,28 @@
+section.services#services.inner
+  .section-wrapper
+    .section-content
+      h3.section-name Our services
+      | {% for about in site.data.services.abouts %}
+      .description 
+        | {% for nestedabout in about.description %}
+        p {{ nestedabout.nested }}
+        |{% endfor %}
+      |{% endfor %}
+      
+      
+      .col-wrapper
+        | {% for service in site.data.services.services %}
+        .col-1.hover
+          h4 {{service.name }}
+          | {% if service.description %}
+          ul
+            | {% for nestedservice in service.description %}
+            li <span style ="color:blue; font-size: 10px; font-weight: bold; padding-right: 5px"> > </span>{{ nestedservice.nested }}
+            | {% endfor %}            
+            | {% endif %}
+            | {% if service.link %}
+            li.seemore
+              a(href="{{ service.link }}") See More...
+            | {% endif %}
+        | {% endfor %}
+      

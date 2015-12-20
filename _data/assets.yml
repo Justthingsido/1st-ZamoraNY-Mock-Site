@@ -1,0 +1,20 @@
+designer: JustThingsIdo
+designerURL: www.guillermoremache.me
+
+
+#-------------------------------
+# landing Section
+
+anchor-tags:
+  - link: Home
+    tag: home
+  - link: About
+    tag: about
+  - link: Services
+    tag: services
+  - link: Projects
+    tag: projects
+  # - link: Prices/Quotes
+  #   tag: quotes
+  - link: Contact Us
+    tag: contact

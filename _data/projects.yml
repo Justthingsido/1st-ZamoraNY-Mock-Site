@@ -1,0 +1,256 @@
+
+#--------------------------
+# projects Section
+
+projects:
+  - name: Concrete
+    link: 'concrete'
+    current: current
+    path: concrete
+    image:
+        - nested: http://www.fillmurray.com/800/600
+          active: show
+        - nested: http://www.fillmurray.com/700/600
+  #     - nested: concrete1.jpg
+  #       active: show
+  #     - nested: concrete2.jpg
+  #     - nested: concrete3.jpg
+  #     - nested: concrete4.jpg
+  #     - nested: concrete5.jpg
+  #     - nested: concrete6.jpg
+  #     - nested: concrete7.jpg
+  #     - nested: concrete8.jpg
+  #     - nested: concrete9.jpg
+
+  - name: Fireplace
+    link: 'fireplace'
+    path: fireplace
+    image:
+        - nested: http://nicenicejpg.com/600/400
+          active: show
+        - nested: http://www.fillmurray.com/1080/600
+  #     - nested: fireplace1.jpg
+  #     - nested: fireplace2.jpg
+
+  - name: Flooring and Painting
+    link: 'flooring'
+    path: flooring
+    image:
+        - nested: http://nicenicejpg.com/600/400
+          active: show
+        - nested: http://www.fillmurray.com/1080/600
+  #   - nested: flooring1.jpg
+  #   - nested: flooring2.jpg
+  #   - nested: flooring3.jpg
+  #   - nested: flooring4.jpg
+  #   - nested: flooring5.jpg
+  #   - nested: flooring6.jpg
+  #   - nested: flooring7.jpg
+  #   - nested: flooring8.jpg
+  #   - nested: flooring9.jpg
+  #   - nested: flooring10.jpg
+  #   - nested: flooring11.jpg
+  #   - nested: flooring12.jpg
+  #   - nested: flooring13.jpg
+  #   - nested: flooring14.jpg
+  #   - nested: flooring15.jpg
+  #   - nested: flooring16.jpg
+  #   - nested: flooring17.jpg
+  #   - nested: flooring18.jpg
+  #   - nested: flooring19.jpg
+  #   - nested: flooring20.jpg
+  #   - nested: flooring21.jpg
+  #   - nested: flooring22.jpg
+  #   - nested: flooring23.jpg
+  #   - nested: flooring24.jpg
+  #   - nested: flooring25.jpg
+  #   - nested: flooring26.jpg
+  #   - nested: flooring27.jpg
+  #   - nested: flooring28.jpg
+  #   - nested: flooring29.jpg
+  #   - nested: flooring30.jpg
+  #   - nested: flooring31.jpg
+  #   - nested: flooring32.jpg
+  #   - nested: flooring33.jpg
+  #   - nested: flooring34.jpg
+  #   - nested: flooring35.jpg
+  #   - nested: flooring36.jpg
+  #   - nested: flooring37.jpg
+  #   - nested: flooring38.jpg
+  #   - nested: flooring39.jpg
+  #   - nested: flooring40.jpg
+  #   - nested: flooring41.jpg
+  #   - nested: flooring42.jpg
+  #   - nested: flooring43.jpg
+  #   - nested: flooring44.jpg
+  #   - nested: flooring45.jpg
+  #   - nested: flooring46.jpg
+  #   - nested: flooring47.jpg
+  #   - nested: flooring48.jpg
+  #   - nested: flooring49.jpg
+  #   - nested: flooring50.jpg
+  #   - nested: flooring51.jpg
+  #   - nested: flooring52.jpg
+  #   - nested: flooring53.jpg
+  #
+  - name: Gardening
+    link: 'gardening'
+    path: gardening
+    image:
+        - nested: http://nicenicejpg.com/600/400
+          active: show
+        - nested: http://www.fillmurray.com/1080/600
+  #     - nested: gardening1.jpg
+  #     - nested: gardening2.jpg
+  #     - nested: gardening3.jpg
+  #     - nested: gardening4.jpg
+  #     - nested: gardening5.jpg
+  #
+  - name: Granite
+    link: 'granite'
+    path: granite
+    image:
+        - nested: http://nicenicejpg.com/600/400
+          active: show
+        - nested: http://www.fillmurray.com/1080/600
+
+  #
+  #     - nested: granite1.jpg
+  #
+  - name: Kitchens
+    link: 'kitchens'
+    path: kitchens
+    image:
+        - nested: http://nicenicejpg.com/600/400
+          active: show
+        - nested: http://www.fillmurray.com/1080/600
+
+  #     - nested: kitchen1.jpg
+  #     - nested: kitchen2.jpg
+  #     - nested: kitchen3.jpg
+  #     - nested: kitchen4.jpg
+  #     - nested: kitchen5.jpg
+  #     - nested: kitchen6.jpg
+  #     - nested: kitchen7.jpg
+  #     - nested: kitchen8.jpg
+  #     - nested: kitchen9.jpg
+  #     - nested: kitchen10.jpg
+  #     - nested: kitchen11.jpg
+  #     - nested: kitchen12.jpg
+  #     - nested: kitchen13.jpg
+  #     - nested: kitchen14.jpg
+  #     - nested: kitchen15.jpg
+  #     - nested: kitchen16.jpg
+  #     - nested: kitchen17.jpg
+  #     - nested: kitchen18.jpg
+  #     - nested: kitchen19.jpg
+  #     - nested: kitchen20.jpg
+  #     - nested: kitchen21.jpg
+  #     - nested: kitchen22.jpg
+  #     - nested: kitchen23.jpg
+  #     - nested: kitchen24.jpg
+  #     - nested: kitchen25.jpg
+  #     - nested: kitchen26.jpg
+  #     - nested: kitchen27.jpg
+  #     - nested: kitchen28.jpg
+  #     - nested: kitchen29.jpg
+  #     - nested: kitchen30.jpg
+  #     - nested: kitchen31.jpg
+  #     - nested: kitchen32.jpg
+  #     - nested: kitchen33.jpg
+  #     - nested: kitchen34.jpg
+  #     - nested: kitchen35.jpg
+  #     - nested: kitchen36.jpg
+  #     - nested: kitchen37.jpg
+  #     - nested: kitchen38.jpg
+  #     - nested: kitchen39.jpg
+  #     - nested: kitchen40.jpg
+  #     - nested: kitchen41.jpg
+  #     - nested: kitchen42.jpg
+  #     - nested: kitchen43.jpg
+  #     - nested: kitchen44.jpg
+  #     - nested: kitchen45.jpg
+  #     - nested: kitchen46.jpg
+  #     - nested: kitchen47.jpg
+  #     - nested: kitchen48.jpg
+  #     - nested: kitchen49.jpg
+  #     - nested: kitchen50.jpg
+  #     - nested: kitchen51.jpg
+  #     - nested: kitchen52.jpg
+  #     - nested: kitchen53.jpg
+  #     - nested: kitchen54.jpg
+  #     - nested: kitchen55.jpg
+  #     - nested: kitchen56.jpg
+  #     - nested: kitchen57.jpg
+  #     - nested: kitchen58.jpg
+  #     - nested: kitchen59.jpg
+  #     - nested: kitchen60.jpg
+  #     - nested: kitchen61.jpg
+  #     - nested: kitchen62.jpg
+  #     - nested: kitchen63.jpg
+  #     - nested: kitchen64.jpg
+  #     - nested: kitchen65.jpg
+  #     - nested: kitchen66.jpg
+  #     - nested: kitchen67.jpg
+  #
+  #
+  - name: Plumbing
+    link: 'plumbing'
+    path: plumbing
+    image:
+        - nested: http://nicenicejpg.com/600/400
+          active: show
+        - nested: http://www.fillmurray.com/1080/600
+  #     - nested: plumbing1.jpg
+  #     - nested: plumbing2.jpg
+  #     - nested: plumbing3.jpg
+  #     - nested: plumbing4.jpg
+  #     - nested: plumbing5.jpg
+  #     - nested: plumbing6.jpg
+  #     - nested: plumbing7.jpg
+  #     - nested: plumbing8.jpg
+  #     - nested: plumbing9.jpg
+  #     - nested: plumbing10.jpg
+  #     - nested: plumbing11.jpg
+  #
+  - name: Pointing
+    link: 'pointing'
+    path: pointing
+    image:
+        - nested: http://nicenicejpg.com/600/400
+          active: show
+        - nested: http://www.fillmurray.com/800/600
+  #     - nested: pointing1.jpg
+  #     - nested: pointing2.jpg
+
+  - name: Restaurants
+    link: 'restaurants'
+    path: restaurants
+    image:
+        - nested: http://nicenicejpg.com/600/400
+          active: show
+        - nested: http://www.fillmurray.com/1080/600
+
+  #     - nested: restaurant1.jpg
+  #     - nested: restaurant2.jpg
+  #     - nested: restaurant3.jpg
+  #     - nested: restaurant4.jpg
+
+  - name: Roofing
+    link: 'roofing'
+    path: roofing
+    image:
+        - nested: http://nicenicejpg.com/600/400
+          active: show
+        - nested: http://www.fillmurray.com/900/600
+  #
+  #     - nested: roofing1.jpg
+  #     - nested: roofing2.jpg
+  #     - nested: roofing3.jpg
+  #     - nested: roofing4.jpg
+  #     - nested: roofing5.jpg
+  #     - nested: roofing6.jpg
+  #     - nested: roofing7.jpg
+  #     - nested: roofing8.jpg
+  #     - nested: roofing9.jpg
+  #     - nested: roofing10.jpg

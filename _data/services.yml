@@ -1,0 +1,57 @@
+#-------------------------------
+# Services
+abouts:
+  - description:
+    - nested: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    - nested: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+services:
+  - name: Interior Services
+    description:
+        - nested: Hardwood Floor Installations
+        - nested: Tile and Stone Work for floors, bath Rooms, and Kitches, etc.
+        - nested: Trim, Crown Molding, etc.
+        - nested: Interior Painting
+    # link: '#interiorservices'
+
+  - name: Exterior Service
+    description:
+        - nested: Window Replacement
+        - nested: Roof Replacement
+        - nested: Exterior Painting
+        - nested: Gutters
+        - nested: Granite
+        - nested: Gardening
+    # link: '#exteriorservices'
+
+  - name: Commercial Services
+    description:
+        - nested: Restaurant Construction & Remodelation
+        - nested: Elevators
+    # link: '#commercialservices'
+
+  - name: Outdoor Areas
+    description:
+        - nested: Screened Porch Additions
+        - nested: Custom Decks and Paver Patios
+        - nested: Outdoor Kitchens and Fireplaces
+        - nested: Pergolas and Fences
+        - nested: Hardscape Design
+
+  - name: Residential Services
+    description:
+        - nested: Custom Design Kitchen Remodels
+        - nested: Bathroom Remodels
+        - nested: Full Home Renovation
+        - nested: Room Additions
+        - nested: Outdoor Fireplaces and Living Areas
+        - nested: Fireplaces
+    # link: '#residentialservices'
+
+  - name: Specialized Services
+    description:
+        - nested: Electrical
+        - nested: Roofing
+        - nested: Plumbing
+        - nested: Painting
+        - nested: Pointing
